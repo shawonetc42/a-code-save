@@ -1,0 +1,12 @@
+ const studentInfo = {
+    name: "John",
+    age: 20,
+    language: {
+      name: "English",
+      level: "A1",
+    },
+  };
+  console.log(studentInfo.language.name);
+
+  const { name, age } = studentInfo;
+  console.log(name, age);
