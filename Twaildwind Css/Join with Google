@@ -2,7 +2,7 @@ import React from "react";
 
 function Test() {
   return (
-    <div className="flex justify-center items-center self-stretch px-2 py-4 text-sm font-semibold leading-5 text-center rounded border border-solid bg-zinc-700 border-slate-600 max-w-[416px] text-zinc-100">
+    <div className="flex justify-center items-center self-stretch px-2 py-4 text-sm font-semibold leading-5 text-center rounded border border-solid bg-zinc-700 border-slate-600  text-zinc-100">
       <div className="flex gap-3">
         <svg
           width="24"
