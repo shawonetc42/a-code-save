@@ -1,0 +1,11 @@
+ let length = 10; // number
+ let name = "John"; // string
+ const people = [
+  {name: "Mark"},
+  {name: "Jane"}
+ ]; // array of objects
+
+ const fullName = {
+  firstName : "John",
+  lastName : "Doe"
+ } // object
