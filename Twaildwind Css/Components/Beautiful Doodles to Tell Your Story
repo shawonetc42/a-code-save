@@ -1,0 +1,37 @@
+import React from "react";
+
+function Test() {
+  return (
+    <div className="flex flex-col justify-center items-center px-2 py-20 max-md:pr-5">
+      <div className="flex items-center justify-center max-md:max-w-full">
+        <div className="flex justify-between items-center">
+          <div className="flex flex-col grow tracking-tight max-md:mt-6 max-md:max-w-full">
+            <div className="text-7xl tracking-tighter leading-[76px] text-zinc-900 max-md:max-w-full max-md:text-4xl max-md:leading-10">
+              Beautiful Doodles to Tell Your Story
+            </div>
+            <div className="mt-6 text-2xl font-medium leading-6 text-zinc-900 max-md:max-w-full">
+              Beautiful Doodles to Tell Your Story
+            </div>
+            <div className="flex gap-4 self-start mt-6 text-base font-bold leading-6">
+              <div className="justify-center px-6 py-3 text-center text-white whitespace-nowrap bg-indigo-500 rounded max-md:px-5">
+                Download
+              </div>
+              <div className="justify-center px-6 py-3 bg-white rounded border border-solid border-zinc-900 text-zinc-900 max-md:px-5">
+                Sign In
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col ml-5 w-[59%] max-md:ml-0 max-md:w-full">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/eea88669d90e254fbb0908887cf99e7af9b11f7ad8f5357ae7a29e624c64b664?"
+              className="self-stretch my-auto w-full aspect-[1.75] max-md:mt-8 max-md:max-w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Test;
