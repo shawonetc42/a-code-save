@@ -1,0 +1,64 @@
+import React from "react";
+import { FaGithub, FaGoogle } from "react-icons/fa";
+
+function Test() {
+  return (
+    <div className="flex mt-20 h-screen flex-col ">
+      <div className="justify-between items-center p-4 bg-white border-b w-full">
+        <div className="w-full">
+          <h1 className="text-2xl font-bold text-center">
+            Create your Free Account
+          </h1>
+          <div>
+            <div>
+              <h1>Full Name</h1>
+              <input
+                placeholder="Enter your Name"
+                className="px-4 py-2 w-full border focus:outline-none focus:ring-2 focus:ring-blue-600 rounded"
+              />
+            </div>
+            <div>
+              <h1>Full Name</h1>
+              <input
+                placeholder="Enter your email"
+                className="px-4 py-2 w-full border focus:outline-none focus:ring-2 focus:ring-blue-600 rounded"
+              />
+            </div>
+            <div>
+              <h1>Password</h1>
+              <input
+                placeholder="Enter your password"
+                className="px-4 py-2 w-full border focus:outline-none focus:ring-2 focus:ring-blue-600 rounded"
+              />
+            </div>
+            <button className="px-4 py-2 w-full border bg-yellow-400 mt-5 focus:outline-none focus:ring-2 focus:ring-blue-600 rounded">
+              Sign Up
+            </button>
+          </div>
+        </div>
+        {/* Add social login buttons */}
+        <h1 className="text-center">
+          Already have an account?{" "}
+          <a href="/login" className="text-blue-600">
+            Login
+          </a>
+        </h1>
+        <h1 className="text-center">or</h1>
+        <div className="flex justify-center gap-2">
+          <div>
+            <h1 className="flex gap-2 items-center">
+              <FaGoogle /> Google
+            </h1>
+          </div>
+          <div className="">
+            <h1 className="flex gap-2 items-center">
+              <FaGithub /> GitHub
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Test;
