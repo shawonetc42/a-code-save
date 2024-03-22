@@ -1,0 +1,32 @@
+import React from "react";
+import { FaFacebook, FaGithub, FaGoogle } from "react-icons/fa";
+
+function Test() {
+  return (
+    <div className="">
+      {/* Login Facebook*/}
+      <div className="flex gap-5 justify-center p-4 mt-2 font-bold text-white bg-blue-600 rounded-md shadow-xl max-md:flex-wrap max-md:px-5">
+        <div className="flex items-center gap-2 ">
+          <FaFacebook />
+          Login Facebook
+        </div>
+      </div>
+      {/* Login Google */}
+      <div className="flex gap-5 justify-center p-4 mt-2 font-bold text-black bg-white rounded-md shadow-xl max-md:flex-wrap max-md:px-5">
+        <div className="flex items-center gap-2 ">
+          <FaGoogle />
+          Login google
+        </div>
+      </div>
+      {/* Login Github */}
+      <div className="flex gap-5 justify-center p-4 mt-2 font-bold text-white bg-black rounded-md shadow-xl max-md:flex-wrap max-md:px-5">
+        <div className="flex items-center gap-2 ">
+          <FaGithub />
+          Login Facebook
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Test;
